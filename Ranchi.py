@@ -31,19 +31,19 @@ Score: 110
 Overs played: 18
 '''
 '''
-# Input for Team 1
+
 print("Team 1:")
 team1_name = input("Team Name:\n").strip()
 team1_score = input("Score:\n").strip()
 team1_overs = input("Overs played:\n").strip()
 
-# Input for Team 2
+
 print("Team 2:")
 team2_name = input("Team Name:\n").strip()
 team2_score = input("Score:\n").strip()
 team2_overs = input("Overs played:\n").strip()
 
-# Output Match Details
+
 print("\nMatch Details:")
 print(f"Team 1:\nName: {team1_name}\nScore: {team1_score}\nOvers played: {team1_overs}")
 print(f"Team 2:\nName: {team2_name}\nScore: {team2_score}\nOvers played: {team2_overs}")
